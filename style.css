@@ -6,11 +6,23 @@ body {
 .header {
     display:flex;
     background-color: #1F2937;
-    flex-direction: column;
+    flex-direction: row;
+    align-content: center;
 }
 
-.header-top {
+.header-left,
+.header-right {
     display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header-left {
+    margin-left: 300px;
+}
+
+.header-right {
+    margin-right: 300px;
 }
 
 .header-logo {
@@ -52,11 +64,11 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 600px;
 }
 
 .header-content-right {
     display: flex;
-    width: 600px;
-    height: 300px;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
 }
