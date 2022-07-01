@@ -3,19 +3,34 @@ body {
     flex-direction: column;
 }
 
+/* Header Section*/
+
 .header {
     display:flex;
     background-color: #1F2937;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .header-top {
     display:flex;
+    justify-content: space-between;
+    border: thin solid green;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.center-header {
+    border: thin solid yellow;
+    padding: 20px;
+}
+
+.header-links {
+    display: flex;
 }
 
 .hero-main-text {
@@ -30,6 +45,33 @@ body {
     color:#e5e7eb;
 }
 
+.header-bottom {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    border: thin solid red;
+}
+
+.header-bottom .maggie-header {
+    flex: 1;
+    padding: 10px;
+}
+
+.leftside {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.sign-up-button {
+    display: flex;
+    background-color: #3882f6;
+    width: 100px;
+    padding: 5px 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -41,22 +83,4 @@ ul {
     gap: 16px;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-content-left {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 600px;
-}
-
-.header-content-right {
-    display: flex;
-    width: 600px;
-    height: 300px;
-}
+/*Header Section Ends */
