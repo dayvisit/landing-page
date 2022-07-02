@@ -8,15 +8,34 @@ body {
 .header {
     display:flex;
     background-color: #1F2937;
+<<<<<<< HEAD
     justify-content: center;
+=======
+    flex-direction: row;
+    align-content: center;
+>>>>>>> main
 }
 
-.header-top {
+.header-left,
+.header-right {
     display:flex;
+<<<<<<< HEAD
     justify-content: space-between;
     border: thin solid green;
     align-items: center;
     margin-bottom: 20px;
+=======
+    flex-direction: column;
+    align-content: center;
+}
+
+.header-left {
+    margin-left: 300px;
+}
+
+.header-right {
+    margin-right: 300px;
+>>>>>>> main
 }
 
 .header-logo {
@@ -83,4 +102,26 @@ ul {
     gap: 16px;
 }
 
+<<<<<<< HEAD
 /*Header Section Ends */
+=======
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+}
+>>>>>>> main
