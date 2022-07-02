@@ -1,55 +1,26 @@
 body {
-    display:flex
+    display:flex;
     flex-direction: column;
 }
-
 /* Header Section*/
-
 .header {
     display:flex;
     background-color: #1F2937;
-<<<<<<< HEAD
     justify-content: center;
-=======
-    flex-direction: row;
-    align-content: center;
->>>>>>> main
 }
 
-.header-left,
-.header-right {
-    display:flex;
-<<<<<<< HEAD
+.center-header {
+    padding-top: 20px;
+}
+
+.header-top {
+    display: flex;
     justify-content: space-between;
-    border: thin solid green;
-    align-items: center;
-    margin-bottom: 20px;
-=======
-    flex-direction: column;
-    align-content: center;
-}
-
-.header-left {
-    margin-left: 300px;
-}
-
-.header-right {
-    margin-right: 300px;
->>>>>>> main
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-}
-
-.center-header {
-    border: thin solid yellow;
-    padding: 20px;
-}
-
-.header-links {
-    display: flex;
 }
 
 .hero-main-text {
@@ -68,19 +39,18 @@ body {
     display: flex;
     align-items: flex-start;
     margin-bottom: 100px;
-    border: thin solid red;
-}
-
-.header-bottom .maggie-header {
-    flex: 1;
-    padding: 10px;
 }
 
 .leftside {
     width: 400px;
-    margin-right: 50px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
+.maggie-header {
+    margin-left: 25px;
+}
 .sign-up-button {
     display: flex;
     background-color: #3882f6;
@@ -89,6 +59,7 @@ body {
     color: #f9faf8;
     font-size: 18px;
     border-radius: 5px;
+    justify-content: center;
 }
 
 a {
@@ -98,30 +69,40 @@ a {
 
 ul {
     list-style-type: none;
-    display:flex;
     gap: 16px;
+    display: flex;
 }
-
-<<<<<<< HEAD
 /*Header Section Ends */
-=======
-.header-content {
+/*Section-two begins */
+
+.section-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    height: 400px;
     justify-content: center;
+    margin-top: 20px;
 }
 
-.header-content-left {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800px;
+    margin: 20px 0px;
 }
 
-.header-content-right {
+.pictures {
     display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 200px;
+    align-content: center;
+    gap: 15px;
+    flex-direction: row;
 }
->>>>>>> main
+
+.picture {
+    border-radius: 5px;
+    border: #3882f6 medium solid;
+}
+
+.bottom-text {
+    display: flex;
+}
